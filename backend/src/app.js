@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-const express = require('express');
-const db = require('../config/database');
-const Jogador = require('../models/jogador');
-
-const app = express();
-app.use(express.json());
-
-db.sync({force : false}).then(() => {
-    console.log('Conexão com o banco de dados estabelecida com sucesso.');
-
-    app.listen(3000, () =>{
-        console.log('Servidor do Cartola rodando na porta 3000');
-    })
-})
-.catch((error) => {
-    console.error('Erro ao conectar com o banco de dados:', error);
-});   
-=======
 const fs = require('fs');
 const path = require('path');
 const logStream = fs.createWriteStream(path.join(process.cwd(), 'server.log'), { flags: 'a' });
@@ -299,4 +280,3 @@ async function startServer() {
 }
 
 startServer();
->>>>>>> b132c3f (Sbindo atualizações completas Kings league)

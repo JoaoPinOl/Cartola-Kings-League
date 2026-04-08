@@ -153,7 +153,7 @@ app.get('/api/jogadores', async (req, res) => {
 app.get('/api/highlights', async (req, res) => {
     try {
         const highlights = await Jogador.findAll({
-            order: [['pontoGeral', 'DESC']],
+            order: [['media', 'DESC']],
             limit: 3
         });
         res.json(highlights);
@@ -166,11 +166,25 @@ app.get('/api/highlights', async (req, res) => {
 app.post('/api/simulate-round', isAdmin, async (req, res) => {
     try {
         log('Iniciando simulação de rodada...');
-        // 1. Randomly update points for all players
+        // 1. Simular jogos: atualizar estatísticas aleatoriamente para todos os jogadores
         const jogadores = await Jogador.findAll();
         for (const jogador of jogadores) {
-            const randomPoints = (Math.random() * 15 - 2).toFixed(1); // Points between -2 and 13
-            await jogador.update({ pontoGeral: parseFloat(randomPoints) });
+            // Simular se o jogador jogou (80% chance)
+            const jogou = Math.random() < 0.8;
+            if (jogou) {
+                const novosGols = Math.floor(Math.random() * 3); // 0-2 gols
+                const novasAssists = Math.floor(Math.random() * 4); // 0-3 assists
+                const novosAmarelos = Math.random() < 0.1 ? 1 : 0; // 10% chance de amarelo
+                const novosVermelhos = Math.random() < 0.02 ? 1 : 0; // 2% chance de vermelho
+
+                await jogador.update({
+                    jogos: jogador.jogos + 1,
+                    gols: jogador.gols + novosGols,
+                    assists: jogador.assists + novasAssists,
+                    amarelos: jogador.amarelos + novosAmarelos,
+                    vermelhos: jogador.vermelhos + novosVermelhos
+                });
+            }
         }
 
         // 2. Update user scores based on their lineups
@@ -183,7 +197,7 @@ app.post('/api/simulate-round', isAdmin, async (req, res) => {
             
             let roundPoints = 0;
             escalacao.forEach(item => {
-                roundPoints += item.jogador.pontoGeral;
+                roundPoints += item.jogador.media;
             });
 
             await usuario.update({ 
@@ -260,10 +274,10 @@ async function startServer() {
         const count = await Jogador.count();
         if (count === 0) {
             await Jogador.bulkCreate([
-                { nome: 'Neymar Jr', posicao: 'ATA', pontoGeral: 0, preco: 20.0, time: 'Santos' },
-                { nome: 'Arrascaeta', posicao: 'MEI', pontoGeral: 0, preco: 15.0, time: 'Flamengo' },
-                { nome: 'Gustavo Gomez', posicao: 'ZAG', pontoGeral: 0, preco: 12.0, time: 'Palmeiras' },
-                { nome: 'Weverton', posicao: 'GOL', pontoGeral: 0, preco: 10.0, time: 'Palmeiras' },
+                { nome: 'Neymar Jr', posicao: 'Atacante', preco: 0, time: 'Santos', jogos: 0, gols: 0, assists: 0, amarelos: 0, vermelhos: 0, tipo: 'draft' },
+                { nome: 'Arrascaeta', posicao: 'Meio-campo', preco: 0, time: 'Flamengo', jogos: 0, gols: 0, assists: 0, amarelos: 0, vermelhos: 0, tipo: 'draft' },
+                { nome: 'Gustavo Gomez', posicao: 'Zagueiro', preco: 0, time: 'Palmeiras', jogos: 0, gols: 0, assists: 0, amarelos: 0, vermelhos: 0, tipo: 'draft' },
+                { nome: 'Weverton', posicao: 'Goleiro', preco: 0, time: 'Palmeiras', jogos: 0, gols: 0, assists: 0, amarelos: 0, vermelhos: 0, tipo: 'draft' },
             ]);
             log('Dados iniciais inseridos.');
         }

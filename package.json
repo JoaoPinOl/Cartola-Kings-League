@@ -7,6 +7,7 @@
     "dev": "node backend/src/app.js",
     "build": "vite build",
     "start": "node backend/src/app.js",
+    "seed": "node backend/scripts/seed.js",
     "lint": "tsc --noEmit"
   },
   "repository": {

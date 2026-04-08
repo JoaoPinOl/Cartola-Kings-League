@@ -1,13 +1,13 @@
-const {dataTypes} = require('sequelize');
+const { DataTypes } = require('sequelize');
 const db = require('../config/database');
 
 const Presidente = db.define('presidente', {
-    nome:{
-        type: dataTypes.STRING,
+    nome: {
+        type: DataTypes.STRING,
         allowNull: false
     },
-    time:{
-        type: dataTypes.STRING,
+    time: {
+        type: DataTypes.STRING,
         allowNull: false
     }
 });

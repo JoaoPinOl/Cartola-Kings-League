@@ -4,14 +4,11 @@
   "description": "Projeto de Desenvolvimento Básico do DEVSQUAD",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "test": "echo \"Error: no test specified\" && exit 1"
-=======
     "dev": "node backend/src/app.js",
     "build": "vite build",
     "start": "node backend/src/app.js",
+    "seed": "node backend/scripts/seed.js",
     "lint": "tsc --noEmit"
->>>>>>> b132c3f (Sbindo atualizações completas Kings league)
   },
   "repository": {
     "type": "git",
@@ -26,11 +23,6 @@
   },
   "homepage": "https://github.com/JoaoPinOl/Cartola-Kings-League#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "express": "^5.2.1",
-    "sequelize": "^6.37.8",
-    "sqlite3": "^6.0.1"
-=======
     "@tailwindcss/vite": "^4.0.0",
     "@vitejs/plugin-react": "^4.3.4",
     "bcryptjs": "^2.4.3",
@@ -61,6 +53,5 @@
     "@types/react-dom": "^19.0.3",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
->>>>>>> b132c3f (Sbindo atualizações completas Kings league)
   }
 }

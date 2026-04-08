@@ -1,0 +1,752 @@
+[
+  {
+    "nome": "Thiago 'TH' Brito",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Maicon Silva",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Martín Lara",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Ailton José",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Marcello 'Marcelinho' Junior",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gabriel Medeiros",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Luisinho Barreiros",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Matheus Klynsmann",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Andrey Profeta",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Bruninho Mandarino",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Leonardo 'Belletti'",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Murillo Donato",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Maikon Santos",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Victor 'VB' Bueno",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Matheus Bueno",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Douglinha Melo",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Ryan Lima",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gabriel Braga",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Kenu Leandro",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "João Pelegrini",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Edda Marcelino",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "João 'Choco'",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Felipe Cassiano",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gabriel Repulho",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gui Carvalho",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Lucas 'Japa'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Marcos 'MV'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gustavinho Henrique",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Bruno 'Gan'",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Victor 'Bolt'",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Luís Henrique 'Boolt'",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Lucas 'Pulguinha'",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Everton 'Chiclete' Araújo",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Lucas 'Caroço'",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Nicollas Nascimento",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Lucas Nascimento",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Marcos 'Bolivia'",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Wellinton 'Gigante'",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gui Nascimento",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Paulo 'Pinguinho'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Jheferson Falcão",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Renan Augusto",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gustavo Silva",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Ronaldinho Reis",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Leléo Moura",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Yan 'Coringa'",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Vitor 'Barba'",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Thiago 'Major'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Jeferson Titon",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Rafael 'Tambinha'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gabriel Messias",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "João Guimarães",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Caio Felipe",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Marinho Filho",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Maicon Macabeu",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Douglas 'Doth'",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Rafa Sousa",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gabriel Lopes",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Luan Teles",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Sidney Pages",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "William Costa",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Arthur Facas",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Bruno Mota",
+    "posicao": "Goleiro",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Gabriel 'Dudu'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Paulo 'Pulão'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Rafão 'Portuga'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Rafinha Cunha",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Henrique Wruck",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Carlos 'Ferrão'",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Matheus 'Índio'",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Maicon 'Barata'",
+    "posicao": "Defesa",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Fael Magalhães",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Bruno Ferreira",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Ricardinho Braga",
+    "posicao": "Meia",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  },
+  {
+    "nome": "Jhow Love",
+    "posicao": "Atacante",
+    "media": "0",
+    "jogos": "0",
+    "gols": "0",
+    "assists": "0",
+    "amarelos": "0",
+    "vermelhos": "0"
+  }
+]

@@ -2,7 +2,8 @@ const Jogador = require('../models/jogador');
 
 exports.listarTodos = async (req, rep) =>{
     try{
-        const jogadores = await jogador.findAll
+        const jogadores = await Jogador.findAll();
+        rep.json(jogadores);
     }catch (error){
         rep.status(500).json({ error: "Erro ao Buscar jogadores"});
     }
@@ -16,4 +17,3 @@ exports.criar = async (req, rep) => {
         rep.status(500).json({ error: "Erro ao Criar jogador. Verifique os dados enviados."});
     }
 };
-

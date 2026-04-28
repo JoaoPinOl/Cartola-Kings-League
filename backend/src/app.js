@@ -30,16 +30,7 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const bcrypt = require('bcryptjs');
-const db = require('../config/database');
-const Jogador = require('../models/jogador');
-const Usuario = require('../models/usuario');
-const Escalacao = require('../models/escalacao');
-
-// Associações
-Usuario.hasMany(Escalacao, { foreignKey: 'usuarioId' });
-Escalacao.belongsTo(Usuario, { foreignKey: 'usuarioId' });
-Jogador.hasMany(Escalacao, { foreignKey: 'jogadorId' });
-Escalacao.belongsTo(Jogador, { foreignKey: 'jogadorId' });
+const { db, Jogador, Usuario, Escalacao } = require('../models');
 
 const app = express();
 app.use(cors());
@@ -269,25 +260,6 @@ async function startServer() {
         log('Sincronizando banco de dados...');
         await db.sync({ alter: true });
         log('Conexão com o banco de dados estabelecida com sucesso.');
-        
-        // Seed data if empty
-        const count = await Jogador.count();
-        if (count === 0) {
-            await Jogador.bulkCreate([
-                { nome: 'Neymar Jr', posicao: 'Atacante', preco: 0, time: 'Santos', jogos: 0, gols: 0, assists: 0, amarelos: 0, vermelhos: 0, tipo: 'draft' },
-                { nome: 'Arrascaeta', posicao: 'Meio-campo', preco: 0, time: 'Flamengo', jogos: 0, gols: 0, assists: 0, amarelos: 0, vermelhos: 0, tipo: 'draft' },
-                { nome: 'Gustavo Gomez', posicao: 'Zagueiro', preco: 0, time: 'Palmeiras', jogos: 0, gols: 0, assists: 0, amarelos: 0, vermelhos: 0, tipo: 'draft' },
-                { nome: 'Weverton', posicao: 'Goleiro', preco: 0, time: 'Palmeiras', jogos: 0, gols: 0, assists: 0, amarelos: 0, vermelhos: 0, tipo: 'draft' },
-            ]);
-            log('Dados iniciais inseridos.');
-        }
-
-        // Garantir que o usuário específico seja admin
-        const adminUser = await Usuario.findOne({ where: { email: 'nemesioangelooliveiradasilva@gmail.com' } });
-        if (adminUser && adminUser.role !== 'admin') {
-            await adminUser.update({ role: 'admin' });
-            log('Papel de admin atribuído ao usuário mestre.');
-        }
     } catch (error) {
         log('Erro durante a inicialização do banco de dados: ' + error.message);
     }
